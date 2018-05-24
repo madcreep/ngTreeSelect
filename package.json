@@ -1,6 +1,6 @@
 {
-  "name": "ng-tree-select",
-  "version": "0.0.0",
+  "name": "ng2-tree-select",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^6.0.2",
     "@angular/common": "^6.0.2",

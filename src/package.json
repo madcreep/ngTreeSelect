@@ -1,6 +1,6 @@
 {
-  "name": "ng-tree-select",
-  "version": "0.0.0",
+  "name": "ng2-tree-select",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*"

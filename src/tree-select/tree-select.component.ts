@@ -3,7 +3,7 @@ import {TreeService} from "../tree.service";
 import {TreeViewComponent} from "../tree-view/tree-view.component";
 
 @Component({
-  selector: 'ng-tree-select',
+  selector: 'ng2-tree-select',
   templateUrl: './tree-select.component.html',
   styleUrls: ['./tree-select.component.css']
 })

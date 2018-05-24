@@ -4,7 +4,7 @@ import {TreeService} from "../tree.service";
 import {Subscription} from "rxjs/Subscription";
 
 @Component({
-  selector: 'ng-tree-view',
+  selector: 'ng2-tree-view',
   templateUrl: './tree-view.component.html',
   styleUrls: ['./tree-view.component.css']
 })

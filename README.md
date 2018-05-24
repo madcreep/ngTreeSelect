@@ -1,4 +1,5 @@
-# NgTreeSelect, NgTreeView
+# NgTreeSelect, NgTreeView 
+###aka ng2-tree-select & ng2-gree-view)
 
 This is a pair of simple tree components for Angular 2+ (built with Angular 6) that provide lazy loading.
 
@@ -27,11 +28,11 @@ export class TreeItem {
 }
 ```
 
-## ng-tree-veiw
+## ng2-tree-veiw
 
 ### Usage:
 ```
-<ng-tree-view 
+<ng2-tree-view 
     [items]="items" 
     [lazyLoad]="true|false" 
     [(select)]="select" 
@@ -67,12 +68,12 @@ params:
  * `itemSelected($event)` - an event listener that is being called when an item (`TreeItem`) selected inside of the tree.
  
  
- ## ng-tree-select
+ ## ng2-tree-select
  
  ### Usage:
  
  ```
- <ng-tree-select 
+ <ng2-tree-select 
      [items]="items" 
      [lazyLoad]="true|false" 
      [(select)]="select" 
