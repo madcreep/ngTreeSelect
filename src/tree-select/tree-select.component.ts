@@ -1,15 +1,15 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
-import {TreeService} from "../tree.service";
-import {TreeViewComponent} from "../tree-view/tree-view.component";
+import {Ng2TreeService} from "../tree.service";
+import {Ng2TreeViewComponent} from "../tree-view/tree-view.component";
 
 @Component({
   selector: 'ng2-tree-select',
   templateUrl: './tree-select.component.html',
   styleUrls: ['./tree-select.component.css']
 })
-export class TreeSelectComponent extends TreeViewComponent implements OnInit, OnDestroy {
+export class Ng2TreeSelectComponent extends Ng2TreeViewComponent implements OnInit, OnDestroy {
 
-  constructor(protected loaderServcie: TreeService) {
+  constructor(protected loaderServcie: Ng2TreeService) {
     super(loaderServcie);
   }
 

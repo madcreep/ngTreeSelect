@@ -52,18 +52,18 @@ where:
 params:
      * `child: string` - id of the node, which corresponded branch should be loaded; 
      
-     after needed elements are loaded from an external resource, `TreeService`'s `branchLoadEvent` should be emitted like this:
+     after needed elements are loaded from an external resource, `Ng2TreeService`'s `branchLoadEvent` should be emitted like this:
      ``` 
-     this.treeService.branchLoadEvent.emit(loadedItems);
+     this.Ng2TreeService.branchLoadEvent.emit(loadedItems);
      ```
  * `loadPeers($event)` - an event listener that is being called when all the peer nodes lying underneath of a particular parent should be loaded; 
  params:
     * `parent: string` - id of tha parent node whose children should be loaded;
     
-    after needed elements are loaded from the external resource, `TreeService`'s `peersLoadEvent` should be emitted like this:
+    after needed elements are loaded from the external resource, `Ng2TreeService`'s `peersLoadEvent` should be emitted like this:
     
     ```
-    this.treeService.peersLoadEvent.emit(items);
+    this.Ng2TreeService.peersLoadEvent.emit(items);
     ```
  * `itemSelected($event)` - an event listener that is being called when an item (`TreeItem`) selected inside of the tree.
  

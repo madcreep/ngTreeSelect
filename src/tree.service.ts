@@ -1,7 +1,7 @@
 import {EventEmitter, Injectable, Output} from '@angular/core';
 
 @Injectable()
-export class TreeService {
+export class Ng2TreeService {
 
   constructor() { }
 

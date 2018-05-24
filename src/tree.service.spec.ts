@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { TreeService } from './tree.service';
+import { Ng2TreeService } from './tree.service';
 
-describe('TreeService', () => {
+describe('Ng2TreeService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [TreeService]
+      providers: [Ng2TreeService]
     });
   });
 
-  it('should be created', inject([TreeService], (service: TreeService) => {
+  it('should be created', inject([Ng2TreeService], (service: Ng2TreeService) => {
     expect(service).toBeTruthy();
   }));
 });

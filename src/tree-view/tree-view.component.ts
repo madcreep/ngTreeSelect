@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {TreeItem} from "../tree-item";
-import {TreeService} from "../tree.service";
+import {Ng2TreeService} from "../tree.service";
 import {Subscription} from "rxjs/Subscription";
 
 @Component({
@@ -8,7 +8,7 @@ import {Subscription} from "rxjs/Subscription";
   templateUrl: './tree-view.component.html',
   styleUrls: ['./tree-view.component.css']
 })
-export class TreeViewComponent implements OnInit, OnDestroy {
+export class Ng2TreeViewComponent implements OnInit, OnDestroy {
 
   @Output() load: EventEmitter<null> = new EventEmitter();
   @Output() loadBranch: EventEmitter<string> = new EventEmitter<string>();
@@ -190,7 +190,7 @@ export class TreeViewComponent implements OnInit, OnDestroy {
   private branchLoadSub: Subscription;
   private peersLoadSub: Subscription;
 
-  constructor(protected loaderServcie: TreeService) { }
+  constructor(protected loaderServcie: Ng2TreeService) { }
 
   ngOnInit() {
     this.branchLoadSub = this.loaderServcie.branchLoadEvent.subscribe(values => {
