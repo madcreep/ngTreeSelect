@@ -1,6 +1,6 @@
 # NgTreeSelect, NgTreeView
 
-This is a simple pair of tree components for Angular 2+ (built with Angular 6) that provide lazy loading.
+This is a pair of simple tree components for Angular 2+ (built with Angular 6) that provide lazy loading.
 
 ##TreeItem
 
